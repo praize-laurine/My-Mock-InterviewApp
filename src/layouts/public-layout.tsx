@@ -4,10 +4,6 @@ const PublicLayout = () => {
     <div className="w-full">
 
         {/* handler to store user-data */}
-        
-
-
-
     </div>
   )
 }
