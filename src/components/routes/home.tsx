@@ -54,18 +54,18 @@ const HomePage = () => {
           />
 
           <div className="absolute top-4 left-4 px-4 py-2 rounded-md bg-white/40 backdrop-blur-md">
-            Inteviews Copilot&copy;
+            {/* Inteviews Copilot&copy; */}
           </div>
 
           <div className="hidden md:block absolute w-80 bottom-4 right-4 px-4 py-2 rounded-md bg-white/60 backdrop-blur-md">
-            <h2 className="text-neutral-800 font-semibold">Developer</h2>
+            <h2 className="text-neutral-800 font-semibold">Ace it!!</h2>
             <p className="text-sm text-neutral-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-              distinctio natus, quos voluptatibus magni sapiente.
+            We are committed to helping you unlock your full potential with AI-powered tools. 
+            Our platform offers a wide range of resources to improve your interview skills and chances of success.
             </p>
 
             <Button className="mt-3">
-              Generate <Sparkles />
+              Learn More <Sparkles />
             </Button>
           </div>
         </div>
@@ -113,7 +113,7 @@ const HomePage = () => {
 
             <Link to={"/generate"} className="w-full">
               <Button className="w-3/4">
-                Generate <Sparkles className="ml-2" />
+                Get Started <Sparkles className="ml-2" />
               </Button>
             </Link>
           </div>

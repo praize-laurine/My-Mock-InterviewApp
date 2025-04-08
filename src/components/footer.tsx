@@ -72,7 +72,7 @@ export const Footer = () => {
           {/* Third Column: Services */}
           <div>
             <h3 className="font-bold text-lg mb-4">Services</h3>
-            <ul>
+            {/* <ul>
               <FooterLink to="/services/interview-prep">
                 Interview Preparation
               </FooterLink>
@@ -82,13 +82,13 @@ export const Footer = () => {
               <FooterLink to="/services/resume-building">
                 Resume Building
               </FooterLink>
-            </ul>
+            </ul> */}
           </div>
 
           {/* Fourth Column: Address and Social Media */}
           <div>
             <h3 className="font-bold text-lg mb-4">Contact Us</h3>
-            <p className="mb-4">Tech City, Nairobi, Kenya</p>
+            <p className="mb-4">Zetech, Ruiru, Kenya</p>
             <div className="flex gap-4">
               <SocialLink
                 href="https://facebook.com"
