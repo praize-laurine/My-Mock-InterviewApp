@@ -258,7 +258,7 @@ export const FormMockInterview= ({ initialData }: FormMockInterviewProps) => {
             render={({ field }) => (
               <FormItem className="w-full space-y-4">
                 <div className="w-full flex items-center justify-between">
-                  <FormLabel>Tech Stacks</FormLabel>
+                  <FormLabel>Skills Required</FormLabel>
                   <FormMessage className="text-sm" />
                 </div>
                 <FormControl>
